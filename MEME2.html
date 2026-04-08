@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chanchai studio - Rickrolled</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm94dnNueXN5eXN5eXN5eXN5eXN5eXN5eXN5eXN5eXN5eXN5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/Ju7l5y9osyymQ/giphy.gif');
+            background-size%: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+                .overlay-box {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            max-width: 90%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay-box">
+        <h1 class="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter mb-4">
+            I know you'll read this message. :>
+        </h1>
+        <p class="text-xl text-white font-light">
+            Welcome to <span class="font-bold text-yellow-300">Chanchai Studio</span><br>
+            "Never Gonna Give You Up"
+        </p>
+        <div class="mt-6">
+            <button onclick="location.reload()" class="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition">
+                RE-ROLL
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
